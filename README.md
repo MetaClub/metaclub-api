@@ -1,5 +1,8 @@
 ##API-Metaclub
 
+[![Build Status](https://travis-ci.org/MetaClub/api-metaclub.svg?branch=master)](https://travis-ci.org/MetaClub/api-metaclub)
+[![Coverage Status](https://coveralls.io/repos/github/MetaClub/api-metaclub/badge.svg?branch=master)](https://coveralls.io/github/MetaClub/api-metaclub?branch=master)
+
 ###Information
 
 API-Metaclub is an open-source Django API developed for [MetaClub](https://metaclub.github.io/).

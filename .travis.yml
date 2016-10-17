@@ -1,0 +1,19 @@
+language: python
+python:
+  - 3.5
+
+# Commands to install requirements
+install: 
+  - pip install -r requirements.txt
+  - pip install coveralls
+  - pip install pep8
+
+# Style validation with Django Standards
+before_script:
+  - pep8 --count --show-source --max-line-length=119 --exclude=migrations src/apimetaclub/
+
+# Django tests and coverall
+script: 
+  - coverage run src/manage.py test
+    
+after_success: coveralls

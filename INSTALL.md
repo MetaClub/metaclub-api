@@ -17,7 +17,7 @@ To install all the Python requirements to this project, run the following comman
 At this point, you have all the requirements to run the server. To do so, execute the following command :
 
 ```
-python ./django/apimetaclub/manage.py runserver
+python ./src/manage.py runserver
 ```
 
 *Note that the upper command was run from the root directory.*
